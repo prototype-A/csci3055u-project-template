@@ -5,7 +5,7 @@
 
 ## About Rust
 
-> **History**
+> **History**  
 > Rust is a relatively new language compared to other programming languages,
 > as well as its predecessors in which it is based off of. It first started out
 > as a personal project in 2006 by Mozilla Research employeee Graydon Hoare.
@@ -39,17 +39,16 @@ fn main() {
 
 ## About the tools
 
-> **Getting started with Rust (on macOS/Linux)**
+> **Getting started with Rust (on macOS/Linux)**  
+> Installation:  
+> `curl https://sh.rustup.rs -sSf | sh`	- Downloads and installs *rustup*, which installs Rust (Requires a relog)
 >
-> Installation:
-> `curl https://sh.rustup.rs -sSf | sh`	- Downloads and installs *rustup*, which installs Rust (Requires a log-out)
->
-> Updating Rust:
+> Updating Rust:  
 > `rustup update stable`
   
-> **Cargo**
+> **Cargo**  
 > Rust's compiler/build tool, which also functions as a package manager for tools for Rust known as 'components'
-> 
+>
 > Some basic commands:
 > - `cargo --version`	- Checks for and displays the current version of Rust installed
 > - `cargo build`		- Build your project
@@ -63,7 +62,7 @@ fn main() {
 
 ## About the Rust Standard Library
 
-> **std**
+> **std**  
 > The Rust Standard Library contains a collection of minimal, battle-tested
 > shared abstractions, offering modules of primitive and other core types,
 > library-defined operations, standard macros, I/O, multithreading,
@@ -128,10 +127,8 @@ fn main() {
 document_.
 
 # References
-[Cargo: packages for Rust](https://crates.io/)
-[Rust](https://www.rust-lang.org/)
-[Rust Standard Library crate doc](https://doc.rust-lang.org/std/index.html)
-[Medium](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
+[Cargo: packages for Rust](https://crates.io/)  
+[Rust](https://www.rust-lang.org/)  
+[Rust Standard Library crate doc](https://doc.rust-lang.org/std/index.html)  
+[Medium](https://medium.com/learning-rust/rust-basics-e73304ab35c7)  
 [Wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))
-
-
