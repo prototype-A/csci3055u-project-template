@@ -108,11 +108,13 @@ fn main() {
 
 ## About the crate registry (Rust's repository of open source libraries)
 
-> **Crates** are Rust binaries and libraries. 
-> The crates available on [crates.io](https://crates.io/), Rust's package
-> repository, are written and published by other developers. They can be
-> freely incorporated into your own Rust projects which you can also publish
-> to the website, allowing other developers to make use of it.
+> **Crates** are Rust binaries and libraries.
+> Open-source crates are available on [crates.io](https://crates.io/), which is
+> Rust's package repository. They are written and published by other developers.
+> Crates can be incorporated as dependencies into your own Rust projects and
+> have its functionality be called from within there. You can also publish your
+> own projects to the website as crates, allowing other developers to make use
+> of your creations in their own and potentially continuing the chain.
   
 > **A few of the most-downloaded crates**
 > - rand	- Library for random number generation
