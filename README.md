@@ -74,7 +74,7 @@ fn main() {
 > through the std path, `use std::module`, or use with expressions through the
 > absolute path, `::std::module::method`.
 >
-> **Some primitive data type modules**
+> **A few primitive data type modules**
 > - bool	- Boolean *(True/False)*
 > - char	- Single character
 > - f32		- 32-bit floating point number (also available in 64-bit with *f64*)
@@ -106,10 +106,19 @@ fn main() {
 > - thread	- For dealing with program threading, `std::thread`
 > - time	- For dealing with temporal functionality, `std::time`
 
-## About open source library
+## About the crate registry (Rust's repository of open source libraries)
 
-> _Describe at least one contribution by the open source
-community written in the language._
+> **Crates** are Rust binaries and libraries. 
+> The crates available on [crates.io](https://crates.io/), Rust's package
+> repository, are written and published by other developers. They can be
+> freely incorporated into your own Rust projects which you can also publish
+> to the website, allowing other developers to make use of it.
+  
+> **A few of the most-downloaded crates**
+> - rand	- Library for random number generation
+> - regex	- Library for parsing, compiling, and executing regular expressions similar to Perl-style regex
+> - serde	- Framework for serializing and deserializing Rust data structures efficiently and generically
+> - winapi	- Provides raw Foreign Function Interface to the Windows Operating System's APIs
 
 # Analysis of the language
 
@@ -117,6 +126,7 @@ community written in the language._
 document_.
 
 # References
+[Cargo: packages for Rust](https://crates.io/)
 [Rust](https://www.rust-lang.org/)
 [Rust Standard Library crate doc](https://doc.rust-lang.org/std/index.html)
 [Medium](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
