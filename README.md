@@ -61,10 +61,50 @@ fn main() {
 
 [crates.io]: https://crates.io/
 
-## About the standard library
+## About the Rust Standard Library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+> **std**
+> The Rust Standard Library contains a collection of minimal, battle-tested
+> shared abstractions, offering modules of primitive and other core types,
+> library-defined operations, standard macros, I/O, multithreading,
+> and much more, of which may contain modules themselves.
+>
+> It is available to to all Rust crates by default; no need for an extra 
+> `extern crate std;`. All that is needed are `use` statements for modules
+> through the std path, `use std::module`, or use with expressions through the
+> absolute path, `::std::module::method`.
+>
+> **Some primitive data type modules**
+> - bool	- Boolean *(True/False)*
+> - char	- Single character
+> - f32		- 32-bit floating point number (also available in 64-bit with *f64*)
+> - i16		- 16-bit signed integer (also available in 8/32/64/128-bit with *i8*/*i32*/*i64*/*i128*)
+> - str		- String, in borrowed form, `&str`, or literal, `&'static str`, also known as a 'string slice'
+> - u8		- 8-bit unsigned integer (also available in 16/32/64/128-bit with *u16*/*u32*/*u64*/*u128*)
+> - unit	- Data of type `()`, sometimes called *unit* or *nil*
+>
+> **Some collections**
+> - array		- Fixed-size array of elements of type T of non-negative constant size N, `[T; N]`
+> - BinaryHeap	- Priority queue implemented with a binary maxheap
+> - BTreeMap	- Map based on a binary tree
+> - HashMap		- Hash map implemented with linear probing and Robin Hood bucket stealing
+> - LinkedList	- Doubly-linked list of type T, `LinkedList<T>`
+> - slice		- Dynamically-sized view into a contiguous sequence of type T, either shared, `&[T]`, or mutable, `&mut [T]`
+> - tuple		- Finite sequence of one or more types, `(S, T, U, ..)`
+> - Vec			- Contiguous growable array type of heap-allocated elements of type T, `Vec<T>`, or `vec![a, b, c, ..]`
+>
+> **Some other modules**
+> - alloc	- For dealing with memory allocation, `std::alloc`
+> - arch	- For dealing with CPU architechure specifics, `std::arch`
+> - env		- For dealing with the process environment, `std::env`
+> - mem		- For dealing with memory manipulation, `std::mem`
+> - net		- For dealing with networking, `std::net`
+> - os		- For dealing with functionality specific to certain Operating Systems, `std::os`
+> - pointer	- Raw, unsafe pointers of type T, `*const T`, `*mut T`
+> - process	- For working with the current and child processes, `std::process`
+> - sync	- For use with program execution synchronization, `std::sync`
+> - thread	- For dealing with program threading, `std::thread`
+> - time	- For dealing with temporal functionality, `std::time`
 
 ## About open source library
 
@@ -78,6 +118,7 @@ document_.
 
 # References
 [Rust](https://www.rust-lang.org/)
+[Rust Standard Library crate doc](https://doc.rust-lang.org/std/index.html)
 [Medium](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
 [Wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))
 
