@@ -28,13 +28,25 @@
 
 ## Syntax
 
-> Rust source code is stored in .rs files
+> More detailed executable examples can be found in basic-syntax/
 
 ### Basic 'Hello, World!' program:
 ```rust
 fn main() {
     println!("Hello, World!");
 }
+```
+
+### Declaring variables
+```rust
+// Explicitly declare a variable as an unsigned, 32-bit integer
+let variable_name: u32 = 5;
+
+// Defaults to i32
+let default_variable = 5;
+
+// Unused variables will not cause warnings during compiling if there is a preceding underscore
+let _silenced_variable = true;
 ```
 
 ## About the tools
@@ -46,8 +58,12 @@ fn main() {
 > Updating Rust:  
 > `rustup update stable`
   
+> **Compiling source code**  
+> `rustc [filename].rs`, where \[filename\] is the name of your Rust source code file.
+> This produces a compiled binary with the same name, which you can execute with `./[filename]`.
+  
 > **Cargo**  
-> Rust's compiler/build tool, which also functions as a package manager for tools for Rust known as 'components'
+> Rust's build tool, which also functions as a package manager for tools for Rust known as 'components'
 >
 > Some basic commands:
 > - `cargo --version`	- Checks for and displays the current version of Rust installed
