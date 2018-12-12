@@ -33,7 +33,7 @@
 ### Basic 'Hello, World!' program:
 ```rust
 fn main() {
-	println!("Hello, World!");
+    println!("Hello, World!");
 }
 ```
 
@@ -114,7 +114,7 @@ fn main() {
 > have its functionality be called from within there. You can also publish your
 > own projects to the website as crates, allowing other developers to make use
 > of your creations in their own and potentially continuing the chain.
-  
+>
 > **A few of the most-downloaded crates**
 > - rand	- Library for random number generation
 > - regex	- Library for parsing, compiling, and executing regular expressions similar to Perl-style regex
