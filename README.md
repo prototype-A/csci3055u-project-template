@@ -13,13 +13,13 @@
 > maintaining high performance, as well as safe concurrency. Its creator stated
 > that it was possibly named after the rust family of fungi. Rust uses LLVM 
 > as its backend.
-  
+>
 > **Interesting features**
 > - Safe
 > - Low-level
 > - High-performance
 > - Supports multiple paradigms of programming such as imperative, functional and object-oriented
-  
+>
 > **Fun facts**
 > - Its compiler is written in Rust itself and can compile its own source code
 > - Won 1st place for "Most Loved Programming Language" in the Stack Overflow Developer Survey in 2016, 2017, and 2018
